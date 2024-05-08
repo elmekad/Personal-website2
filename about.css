@@ -31,20 +31,38 @@ main {
     background-color: rgb(24,24,35,255);
 }
 
+.big{
+    
+    float: right;
+    
+}
+
 h1{
     position: relative;
     bottom: 600px;
     padding-left: 30px;
+    font-size: 30px;
+}
+
+.game{
+    padding-bottom: 20%;
+    position: relative;
+    left: 39%;
+}
+.gym{
+    padding-top: 30%;
+}
+
+.game img{
+    float: right;
+    margin: 0 24px 24px 24px;
+    height: 300px;
+    box-sizing: border-box;
 }
 
 .gym img{
-    padding-left: 600px;
-    padding-top: 700px;
-    height: 500px;
-}
-.game img{
-    padding-left: 800px;
-    padding-bottom: 800px;
-    height: 500px;
-    width: 500px;
+    float: right;
+    margin: 0 24px 24px 24px;
+    height: 300px;
+    box-sizing: border-box;
 }
