@@ -31,28 +31,20 @@ main {
     background-color: rgb(24,24,35,255);
 }
 
-.profile-image {
-
-    background-image: url('adame.png');
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    
+h1{
+    position: relative;
+    bottom: 600px;
+    padding-left: 30px;
 }
 
-.intro-text {
-    max-width: 1000px;
-    margin-left: 700px;
-    margin-top: 500px;
-    font-size: 45px;
-    
+.gym img{
+    padding-left: 600px;
+    padding-top: 700px;
+    height: 500px;
 }
-
-.intro-text h2{
-    font-size: 40px;
+.game img{
+    padding-left: 800px;
+    padding-bottom: 800px;
+    height: 500px;
+    width: 500px;
 }
-
-.intro-text p {
-    font-size: 35px;
-}
-
