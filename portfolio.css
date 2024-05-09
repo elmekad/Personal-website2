@@ -56,6 +56,13 @@ section > img{
     right:18% ;
     
 }
+.Second-Project > h2{
+    position: static;
+}
+.Second-Project{
+    position: static;
+    right: 18%;
+}
 
 .Second-Project{
     position: relative;

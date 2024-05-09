@@ -23,46 +23,50 @@ nav a {
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    height: 80vh;
-    color: white;
-    background-color: rgb(24,24,35,255);
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
 }
 
-.big{
-    
-    float: right;
-    
-}
+
 
 h1{
-    position: relative;
+   position: static;
+   left: 25%;
     bottom: 600px;
     padding-left: 30px;
     font-size: 30px;
+    
 }
 
 .game{
-    padding-bottom: 20%;
     position: relative;
-    left: 39%;
+    left: 25%;
+    background-color: #333;
+    width: 1500px;
+    border: 15px solid rgb(173, 168, 167);
+    padding: 50px;
+    margin: 100px;
 }
+
+section > img{
+    padding-left: 60% ;
+    height: 300px;
+    width: 600px;
+}
+
+
+
 .gym{
-    padding-top: 30%;
-}
-
-.game img{
-    float: right;
-    margin: 0 24px 24px 24px;
-    height: 300px;
-    box-sizing: border-box;
-}
-
-.gym img{
-    float: right;
-    margin: 0 24px 24px 24px;
-    height: 300px;
-    box-sizing: border-box;
+    position: relative;
+    left: 25%;
+    background-color: #333;
+    width: 1500px;
+    border: 15px solid rgb(173, 168, 167);
+    padding: 50px;
+    margin: 100px;
 }
