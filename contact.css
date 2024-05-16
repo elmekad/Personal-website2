@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(24,24,35,255);
+    
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 30px 40px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.el {
+    --c: #1095c1; /* the color */
+    --s: .15em;
+    
+    line-height:1.1em;
+    padding-bottom: calc(2.1*var(--s));
+    background: 
+      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+    transition: .5s;
+  }
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+label{
+
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+
+}
+section{
+
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    width: 1500px;
+    border: 15px solid rgb(173, 168, 167);
+    padding: 50px;
+    margin: 100px;
+    
+}
+input{
+    width: 65%;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+    font-size: 50px;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   font-size: 60px;
+    
+}
+
+
+
+
