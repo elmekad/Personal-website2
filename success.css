@@ -21,3 +21,17 @@ nav a {
     padding: 10px;
     text-decoration: none;
 }
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    position: relative;
+    left: 50%;
+    height: 500px;
+    width: 500px;
+}
